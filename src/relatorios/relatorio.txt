@@ -1,0 +1,28 @@
+Dimensões do dataframe (Linhas x Colunas): (683, 10)
+
+Descrição geral:        clump_thickness  uniformity_of_cell_size  uniformity_of_cell_shape  ...  normal_nucleoli     mitoses       class
+count       683.000000               683.000000                683.000000  ...       683.000000  683.000000  683.000000
+mean          3.948755                 2.852123                  2.856515  ...         2.685212    1.448023    0.349927
+std           3.173665                 3.176634                  3.134787  ...         3.120578    1.734126    0.477296
+min           0.000000                 0.000000                  0.000000  ...         0.000000    0.000000    0.000000
+25%           1.000000                 1.000000                  1.000000  ...         1.000000    1.000000    0.000000
+50%           3.000000                 1.000000                  1.000000  ...         1.000000    1.000000    0.000000
+75%           6.000000                 5.000000                  5.000000  ...         3.000000    1.000000    1.000000
+max          10.000000                10.000000                 10.000000  ...        10.000000   10.000000    1.000000
+
+[8 rows x 9 columns]
+Acurácia do modelo: 0.975609756097561
+
+Matriz de confusão
+[[129   3]
+ [  2  71]]
+
+Acurácia, precisão, recall, F1-score
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       132
+           1       0.96      0.97      0.97        73
+
+    accuracy                           0.98       205
+   macro avg       0.97      0.97      0.97       205
+weighted avg       0.98      0.98      0.98       205
